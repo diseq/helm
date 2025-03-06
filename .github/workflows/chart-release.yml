@@ -19,12 +19,12 @@ name: Charts / Release
 on:
   push:
     branches:
-      - master
+      - main
     paths:
       - "charts/**"
   # pull_request:
   #   branches:
-  #     - master
+  #     - main
     # paths:
     #   - "charts/**"
 

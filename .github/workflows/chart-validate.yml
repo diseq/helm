@@ -19,7 +19,7 @@ name: Charts / Validate
 on:
   push:
     branches:
-      - master
+      - main
     paths:
       - "charts/**"
       - "charts/**/*.yaml"
@@ -27,7 +27,7 @@ on:
       - "charts/**/dashboards/*.json"
   pull_request:
     branches:
-      - master
+      - main
     paths:
       - "charts/**"
       - "charts/**/*.yaml"
