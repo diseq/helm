@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  gateway-api-crds:
+  - apiVersion: v2
+    appVersion: 1.2.0
+    created: "2025-03-06T20:01:20.710745101Z"
+    dependencies:
+    - name: crds
+      repository: ""
+      version: 0.0.0
+    description: Gateway API CRDs
+    digest: 7c78355c9bc4135560e2a18488d7d658522c3ea55dca137a3182af248d5fe55a
+    home: https://gateway-api.sigs.k8s.io
+    keywords:
+    - kubernetes
+    - gateway-api
+    - crds
+    name: gateway-api-crds
+    sources:
+    - https://github.com/kubernetes-sigs/gateway-api
+    urls:
+    - https://github.com/diseq/helm/releases/download/gateway-api-crds-1.2.1/gateway-api-crds-1.2.1.tgz
+    version: 1.2.1
+generated: "2025-03-06T20:01:20.710754929Z"
