@@ -1,3 +1,4 @@
 apiVersion: v2
-name: crds
+name: kyverno-crds
+# renovate: datasource=github-tags depName=kyverno/kyverno versioning=regex:^kyverno-chart-(?<version>.*)$
 version: 3.3.7
