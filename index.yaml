@@ -1,5 +1,13 @@
 apiVersion: v1
 entries:
+  crds:
+  - apiVersion: v2
+    created: "2025-03-16T14:45:52.366602036Z"
+    digest: d475eeaf8f2824978df6cf937c5fb9e7dd52ddb048d00b6d3780a21e239b66d8
+    name: crds
+    urls:
+    - https://github.com/diseq/helm/releases/download/crds-3.3.7/crds-3.3.7.tgz
+    version: 3.3.7
   gateway-api-crds:
   - apiVersion: v2
     appVersion: 1.2.0
@@ -61,4 +69,4 @@ entries:
     urls:
     - https://github.com/diseq/helm/releases/download/gateway-api-crds-1.1.0/gateway-api-crds-1.1.0.tgz
     version: 1.1.0
-generated: "2025-03-06T20:34:18.240053293Z"
+generated: "2025-03-16T14:45:52.366612526Z"
